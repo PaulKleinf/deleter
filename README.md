@@ -1,2 +1,1 @@
-# deleter
-Löscht alle Dateien in einem Ordner, außer den nicht Gewünschten
+Deletes all files in a folder, except those not wanted
