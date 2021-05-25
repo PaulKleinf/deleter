@@ -1,9 +1,9 @@
 import os
 
-endungen = ["xz", "txt", "mp4"]
-gutendungen = ["py"]
+delete = ["xz", "txt", "mp4"]
+keep = ["py"]
 
 
 for file in os.listdir():
-	if file.split(".")[-1] in endungen and file.split(".")[-1] not in gutendungen:
+	if file.split(".")[-1] in delete and file.split(".")[-1] not in keep:
 		os.remove(file)
